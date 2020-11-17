@@ -1,0 +1,57 @@
+.slider{
+    background-image: url(../../assets/img/s1.jpg);
+    width: 100%;
+    height: 80vh;
+    padding-top: 7%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #333333;
+    background-attachment: fixed;
+}
+
+.slider h1{
+    font-weight: bold;
+    font-size: 55px;
+    color: white;
+    font-family: 'Font Awesome 5 Pro';
+}
+
+.slider span{
+    color: var(--color-orange);
+}
+
+.slider input
+{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px 0 0px 5px;
+    padding: 10px 0 8px 10px;
+    width: 70%;
+    height: auto;
+    font-size: 14px;
+}
+
+.slider input::placeholder
+{
+    color: rgb(124, 124, 124);
+}
+
+.slider .form
+{
+    position: relative;
+}
+
+.slider i
+{
+    cursor: pointer;
+    background-color: orange;
+    border: 1px solid orange;
+    position: absolute;
+    font-size: 15px;
+    padding: 12px 10px;
+    right: 181px;
+    top: 48px;
+    border-radius: 0px 5px 5px 0;
+}

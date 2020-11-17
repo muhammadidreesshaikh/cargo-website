@@ -1,0 +1,28 @@
+.address{
+    padding: 4% 0;
+    background-color: #ececec;
+}
+
+.address .main{
+    
+}
+
+.address .main .icon{
+    
+}
+
+.address .icon i{
+    font-size: 30px;
+    padding-right: 10px;
+    color: orange;
+}
+
+.address .icon p{
+    font-size: 13px;
+    color: gray;
+}
+
+.address .icon h6{
+    font-size: 16px;
+    font-weight: bold;
+}

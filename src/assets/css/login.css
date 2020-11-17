@@ -1,0 +1,26 @@
+.login{
+    padding: 5% 0;
+}
+
+.login label
+{
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.login input
+{
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+}
+
+.login input::placeholder
+{
+    color: rgb(138, 138, 138);
+}
