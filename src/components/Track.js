@@ -22,9 +22,21 @@ class Track extends React.Component {
 
     render() {
         return(
-            <div>
-                <p>Track Track Track</p>
-            </div>
+            <section>
+                <div className="track">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-md-8 col-lg-8">
+                                <h1>Track Your Oder</h1>
+
+                                <div className="form pt-5">
+                                    <input type="text" placeholder="Shipment Code"></input><i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         );
     }
 }

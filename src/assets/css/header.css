@@ -139,7 +139,6 @@
 }
 
 /* menu desktop and mobile switching on responsive  */
-
 @media only screen and (max-width: 768px) {
     .mobile-menu-toggle {
         display: block;

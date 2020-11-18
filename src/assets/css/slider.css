@@ -22,7 +22,7 @@
     color: var(--color-orange);
 }
 
-.slider input
+.slider input[type=text]
 {
     border: 1px solid white;
     background-color: white;
@@ -33,7 +33,7 @@
     font-size: 14px;
 }
 
-.slider input::placeholder
+.slider input[type=text]::placeholder
 {
     color: rgb(124, 124, 124);
 }
@@ -54,4 +54,35 @@
     right: 181px;
     top: 48px;
     border-radius: 0px 5px 5px 0;
+}
+
+
+/* menu desktop and mobile switching on responsive  */
+@media only screen and (max-width: 768px) {
+    .slider{
+        height: 65vh;
+        padding-top: 18%;
+    }
+
+    .slider h1{
+        font-size: 50px;
+    }
+
+    .slider i{
+        right: 97px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slider{
+        padding-top: 25%;
+    }
+
+    .slider h1{
+        font-size: 45px;
+    }
+
+    .slider i{
+        right: 80px;
+    }
 }
