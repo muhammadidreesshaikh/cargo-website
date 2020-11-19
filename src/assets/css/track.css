@@ -18,7 +18,7 @@
     font-family: 'Font Awesome 5 Pro';
 }
 
-.track input
+.track input[type=text]
 {
     border: 1px solid white;
     background-color: white;
@@ -29,7 +29,7 @@
     font-size: 14px;
 }
 
-.track input::placeholder
+.track input[type=text]::placeholder
 {
     color: rgb(124, 124, 124);
 }
@@ -50,4 +50,49 @@
     right: 181px;
     top: 48px;
     border-radius: 0px 5px 5px 0;
+}
+
+.track i:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    background-color: rgb(68, 170, 68);
+    border: 1px solid rgb(68, 170, 68);
+    color: white;
+}
+
+/* menu desktop and mobile switching on responsive  */
+@media only screen and (max-width: 768px) {
+    .track{
+        height: 50vh;
+        padding-top: 10%;
+    }
+
+    .track input[type=text]{
+        width: 65%;
+    }
+
+    .track i{
+        right: 119px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .track{
+        padding-top: 20%;
+    }
+
+    .track h1{
+        font-size: 50px;
+    }
+
+    .track input[type=text]{
+        width: 60%;
+    }
+
+    .track i{
+        right: 120px;
+    }
+
+    
 }

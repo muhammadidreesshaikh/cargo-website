@@ -88,7 +88,7 @@ class Home extends React.Component {
                             <div className="row justify-content-center">
                                 <div className="col-12 col-md-8 col-lg-8">
                                     <h1>PROCESS</h1>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default many web sites still in their infancy.</p>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution making it look like readable .</p>
                                 </div>
 
                                 <div className="col-12 box mt-5">

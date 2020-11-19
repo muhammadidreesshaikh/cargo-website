@@ -190,3 +190,53 @@
 {
     color: rgb(138, 138, 138);
 }
+
+
+/* menu desktop and mobile switching on responsive  */
+@media only screen and (max-width: 768px) {
+    .safe{
+        height: 40vh;
+    }
+
+    .service{
+        padding: 10% 0;
+    }
+
+    .process{
+        padding: 10% 0;
+    }
+
+    .process .card-body{
+        padding: 20% 5%;
+    }
+
+    .question{
+        padding: 10% 0;
+    }
+
+    .question .main .heading h6{
+        font-size: 36px;
+    }
+
+    .question .button{
+        margin: 5% 0px 0px 3%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .process .card{
+        margin-top: 5%;
+    }
+
+    .safe{
+        height: 35vh;
+    }
+
+    .question .main .heading h6{
+        font-size: 25px;
+    }
+
+    .question .button{
+        text-align: center;
+    }
+}
