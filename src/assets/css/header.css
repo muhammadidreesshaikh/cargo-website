@@ -134,8 +134,11 @@
 }
 
 .sidenav a:hover { 
-    color: var(--color-white); 
+    color: var(--color-orange); 
+}
 
+.sidenav .logo i{ 
+    font-size: 40px;
 }
 
 /* menu desktop and mobile switching on responsive  */

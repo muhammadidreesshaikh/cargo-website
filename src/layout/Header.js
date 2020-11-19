@@ -41,6 +41,13 @@ function Header() {
                 </div>
 
                 <div className={"mobile-menu sidenav " + (menuToggle ? 'open' : 'close')}>
+
+                    <div className="col-sm-4 col-md-4 col-lg-4">
+                        <div className='logo'>
+                            <a href="#"><i class="fas fa-dice-d20"></i></a>
+                        </div>
+                    </div>
+
                     <Link to="/home" onClick={() => setMenuToggle(!menuToggle)}>Home</Link>
                     <Link to="/track" onClick={() => setMenuToggle(!menuToggle)}>Track</Link>
                     <Link to="/apply" onClick={() => setMenuToggle(!menuToggle)}>Apply Only</Link>
