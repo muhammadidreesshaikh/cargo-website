@@ -32,7 +32,8 @@ function Header() {
                                  <ul>
                                     <li><Link to="/home">Home</Link></li>
                                     <li><Link to="/track">Track</Link></li>
-                                    <li><Link to="/apply">Apply Only</Link></li>
+                                    <li><Link to="/apply">Apply Online</Link></li>
+                                    <li><Link to="/pickup">Pickup Request</Link></li>
                                     <li><Link to="/login">Login</Link></li>
                                  </ul>
                             </div>
@@ -50,7 +51,8 @@ function Header() {
 
                     <Link to="/home" onClick={() => setMenuToggle(!menuToggle)}>Home</Link>
                     <Link to="/track" onClick={() => setMenuToggle(!menuToggle)}>Track</Link>
-                    <Link to="/apply" onClick={() => setMenuToggle(!menuToggle)}>Apply Only</Link>
+                    <Link to="/apply" onClick={() => setMenuToggle(!menuToggle)}>Apply Online</Link>
+                    <Link to="/pickup" onClick={() => setMenuToggle(!menuToggle)}>Pickup Request</Link>
                     <Link to="/login" onClick={() => setMenuToggle(!menuToggle)}>Login</Link>
                 </div>
             </div>

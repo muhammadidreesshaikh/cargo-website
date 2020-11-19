@@ -6,6 +6,7 @@ import Footer from './layout/Footer';
 import Home from './components/Home';
 import Apply from './components/Apply';
 import Track from './components/Track';
+import Pickup from './components/Pickup';
 import Login from './components/Login';
 
 import { 
@@ -27,6 +28,7 @@ function App() {
               <Route exact path='/home' component={Home}></Route>
               <Route exact path='/apply' component={Apply}></Route>
               <Route exact path='/track' component={Track}></Route>
+              <Route exact path='/pickup' component={Pickup}></Route>
               <Route exact path='/login' component={Login}></Route>
             </Switch>
           </div>

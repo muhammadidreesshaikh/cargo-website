@@ -161,9 +161,9 @@ class Home extends React.Component {
 
                     <div className="form">
                         <div className="container">
-                            <div className="row">
+                            <div className="row justify-content-center">
 
-                                <div className="col-12 col-md-12 col-lg-12">
+                                <div className="col-12 col-md-10 col-lg-10">
                                     <form className="row">
                                         <div className="col-12 col-md-6 col-lg-6">
                                             <div class="form-group">

@@ -24,6 +24,14 @@ class Apply extends React.Component {
                         <div className="row justify-content-center">
 
                             <div className="col-12 col-md-8 col-lg-8">
+
+                                <div className="col-12 col-md-12 col-lg-12">
+                                    <div class="add-heading">
+                                        <h3>Apply Online</h3>
+                                        <a href="#"><p className="pt-2">Customer / Cargo / Transport / Colloection</p></a>
+                                    </div>
+                                </div>
+
                                 <form className="row">
                                     <div className="col-12 col-md-6 col-lg-6">
                                         <div class="form-group">

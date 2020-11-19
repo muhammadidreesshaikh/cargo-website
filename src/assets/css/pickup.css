@@ -1,18 +1,8 @@
-.apply{
+.pickup{
     padding: 5% 0;
 }
 
-.apply h3{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.apply p{
-    font-size: 14px;
-    color: var(--color-gry);
-}
-
-.apply label
+.pickup label
 {
     margin-bottom: 0;
     font-size: 13px;
@@ -20,7 +10,7 @@
     font-weight: bold;
 }
 
-.apply input
+.pickup input
 {
     color: var(--color-black);
     border-radius: 5px;
@@ -30,7 +20,7 @@
     font-size: 13px;
 }
 
-.apply input::placeholder
+.pickup input::placeholder
 {
     color: rgb(138, 138, 138);
 }
