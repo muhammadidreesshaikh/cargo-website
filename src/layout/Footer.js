@@ -53,7 +53,7 @@ function Footer() {
 
                         <div className="col-md-12">
                             <div className="last pt-2">
-                                <p>© Copyright 2020, Logo. All Rights Reserved.</p>
+                                <p>© Copyright 2020, ilyasahmed081@gmail.com. All Rights Reserved.</p>
                             </div>
                         </div>
                        

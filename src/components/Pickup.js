@@ -91,8 +91,15 @@ class Pickup extends React.Component {
                                     </div>
 
                                     <div className="col-12 col-md-12 col-lg-12">
+                                        <div class="form-group">
+                                            <label>Description Pickup</label>
+                                            <textarea class="form-control" rows="5" placeholder="Description Pickup"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-12 col-md-12 col-lg-12">
                                         <div className="pt-4 text-center">
-                                            <button type="button" class="btn btn-fill btn-primary">Done</button>
+                                            <button type="button" class="btn btn-fill btn-primary">Create Request</button>
                                         </div>
                                     </div>
                                 </form>

@@ -2,7 +2,7 @@
     padding: 5% 0;
 }
 
-.pickup label
+.pickup label, input textarea::placeholder
 {
     margin-bottom: 0;
     font-size: 13px;
@@ -10,7 +10,7 @@
     font-weight: bold;
 }
 
-.pickup input
+.pickup input, input textarea::placeholder
 {
     color: var(--color-black);
     border-radius: 5px;
@@ -20,7 +20,7 @@
     font-size: 13px;
 }
 
-.pickup input::placeholder
+.pickup input::placeholder, input textarea::placeholder
 {
     color: rgb(138, 138, 138);
 }
