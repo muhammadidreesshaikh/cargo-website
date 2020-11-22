@@ -90,6 +90,17 @@ class Pickup extends React.Component {
                                         </div>
                                     </div>
 
+                                    <div className="col-12 col-md-6 col-lg-6">
+                                        <div class="form-group">
+                                            <label>Pickup Type</label>
+                                            <select class="form-control">
+                                                <option>Outgoing</option>
+                                                <option>Incoming</option>
+                                                <option>Registered</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
                                     <div className="col-12 col-md-12 col-lg-12">
                                         <div class="form-group">
                                             <label>Description Pickup</label>
