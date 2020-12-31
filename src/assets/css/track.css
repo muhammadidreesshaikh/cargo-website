@@ -64,16 +64,16 @@
 /* menu desktop and mobile switching on responsive  */
 @media only screen and (max-width: 768px) {
     .track{
-        height: 50vh;
-        padding-top: 10%;
+        height: 40vh;
+        padding-top: 15%;
     }
 
     .track input[type=text]{
-        width: 65%;
+        width: 75%;
     }
 
     .track i{
-        right: 119px;
+        right: 74px;
     }
 }
 
@@ -83,15 +83,15 @@
     }
 
     .track h1{
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .track input[type=text]{
-        width: 60%;
+        width: 70%;
     }
 
     .track i{
-        right: 120px;
+        right: 77px;
     }
 
     

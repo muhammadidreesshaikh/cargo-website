@@ -1,6 +1,6 @@
 .footer{
     background-color: #191919;
-    padding: 3% 0 1% 0;
+    padding: 3% 0 0% 0;
     background-repeat: no-repeat;
 }
 
@@ -13,20 +13,24 @@
 
 .footer .logo a
 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
-}
-
-.footer .first p{
-    font-size: 13px;
-    color: #c1c1c1;
 }
 
 .footer .first h3{
     font-weight: bold;
     font-size: 16px;
     color: white;
+}
+
+.footer .first h3 a {
+    float: right;
+}
+
+.footer .first p{
+    font-size: 13px;
+    color: #c1c1c1;
 }
 
 .footer .press{
@@ -53,6 +57,14 @@
     padding-left: 0;
 }
 
+.footer .first ul {
+    display: none;
+}
+
+.footer .first ul.open {
+    display: block;
+}
+
 .footer .first li{
     padding-top: 9px;
 }
@@ -77,6 +89,10 @@
     margin-top: 3%;
 }
 
+.footer .last {
+    padding: 1% 0;
+}
+
 .footer .last p{
    text-align: center;
     color: grey;
@@ -85,7 +101,6 @@
 
 
 /* menu desktop and mobile switching on responsive  */
-
 @media only screen and (max-width: 768px) {
  
 }
@@ -98,4 +113,13 @@
     .footer .first h3{
         padding-top: 5%;
     }
+
+    .footer .last {
+        padding: 2% 0;
+    }
+
+    .footer .last p{
+         font-size: 12px;
+    }
+
 }

@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../assets/css/header.css'
-
+// import logo from '../assets/img/logo_465x320.png'
 
 function Header() {
 
     const [menuToggle, setMenuToggle] = useState(false);
-
-    console.log(menuToggle);
 
     return(
         <div>
@@ -30,11 +28,11 @@ function Header() {
                         <div className="col-sm-8 col-md-8 col-lg-8">
                             <div className="nav">
                                  <ul>
-                                    <li><Link to="/home">Home</Link></li>
-                                    <li><Link to="/track">Track</Link></li>
-                                    <li><Link to="/apply">Apply Online</Link></li>
-                                    <li><Link to="/pickup">Pickup Request</Link></li>
-                                    <li><Link to="/login">Login</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/home'}>Home</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/track'}>Track</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/applyOnline'}>Apply Online</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/pickupRequest'}>Pickup Request</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/login'}>Login</Link></li>
                                  </ul>
                             </div>
                         </div>
@@ -49,11 +47,11 @@ function Header() {
                         </div>
                     </div>
 
-                    <Link to="/home" onClick={() => setMenuToggle(!menuToggle)}>Home</Link>
-                    <Link to="/track" onClick={() => setMenuToggle(!menuToggle)}>Track</Link>
-                    <Link to="/apply" onClick={() => setMenuToggle(!menuToggle)}>Apply Online</Link>
-                    <Link to="/pickup" onClick={() => setMenuToggle(!menuToggle)}>Pickup Request</Link>
-                    <Link to="/login" onClick={() => setMenuToggle(!menuToggle)}>Login</Link>
+                    <li><Link to={process.env.PUBLIC_URL + '/home'} onClick={() => setMenuToggle(!menuToggle)}>Home</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/track'} onClick={() => setMenuToggle(!menuToggle)}>Track</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/applyOnline'} onClick={() => setMenuToggle(!menuToggle)}>Apply Online</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/pickupRequest'} onClick={() => setMenuToggle(!menuToggle)}>Pickup Request</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/login'} onClick={() => setMenuToggle(!menuToggle)}>Login</Link></li>
                 </div>
             </div>
         </div>

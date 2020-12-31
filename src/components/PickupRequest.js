@@ -1,7 +1,7 @@
 import React from 'react';
-import '../assets/css/pickup.css';
+import '../assets/css/pickuprequest.css';
 
-class Pickup extends React.Component {
+class PickupRequest extends React.Component {
 
     constructor(props) {
         super(props);
@@ -13,7 +13,7 @@ class Pickup extends React.Component {
     } 
 
     componentDidMount() {
-        console.log("Pickup");
+        console.log("PickupRequest");
 
         this.setState({
             loading: true
@@ -123,4 +123,6 @@ class Pickup extends React.Component {
         );
     }
 }
-export default Pickup;
+export default PickupRequest;
+
+

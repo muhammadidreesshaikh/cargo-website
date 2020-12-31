@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../assets/css/footer.css';
 
 function Footer() {
+
+    const [itemToggle, setItemToggle] = useState('');
+
+    const openAccordian = (item) => {
+        if (item == itemToggle) {
+            setItemToggle('');
+        }
+        else {
+            setItemToggle(item);
+        }
+    }
+
     return(
         <div>
             <div className="footer">
@@ -13,7 +25,7 @@ function Footer() {
                                 <div className='logo'>
                                     <a href="#"><i class="fas fa-dice-d20"></i>Cargo</a>
                                 </div>
-                                <p className="pt-2">The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book in publishing  is a placeholder text commonly used to demonstrate.</p>
+                                <p className="pt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
 
                                 <div className="pt-4">
                                     <a className="press" href="#">Read More</a>
@@ -23,8 +35,18 @@ function Footer() {
 
                         <div className="col-md-3">
                             <div className="first">
-                                <h3>COMPANY</h3>
-                                <ul>
+                                <h3>
+                                    <span>COMPANY</span>
+                                    <a onClick={() => openAccordian('company')}>
+                                        {
+                                            itemToggle == 'company' ?
+                                            <i class="fas fa-chevron-up"></i>
+                                            :
+                                            <i class="fas fa-chevron-down"></i>
+                                        }
+                                    </a>
+                                </h3>
+                                <ul className={"" + (itemToggle == 'company' ? 'open' : '')}>
                                     <li><a href="#">Our History</a></li>
                                     <li><a href="#"> Investor Relations & Policies</a></li>
                                     <li><a href="#">Careers</a></li>
@@ -37,8 +59,18 @@ function Footer() {
 
                         <div className="col-md-3">
                             <div className="first">
-                                <h3>STAY CONNECTED</h3>
-                                <ul>
+                                <h3>
+                                    <span>STAY CONNECTED</span>
+                                    <a onClick={() => openAccordian('stay-connected')}>
+                                        {
+                                            itemToggle == 'stay-connected' ?
+                                            <i class="fas fa-chevron-up"></i>
+                                            :
+                                            <i class="fas fa-chevron-down"></i>
+                                        }
+                                    </a>
+                                </h3>
+                                <ul className={"" + (itemToggle == 'stay-connected' ? 'open' : '')}>
                                     <li><a href="#">Facebook</a></li>
                                     <li><a href="#">Instagram</a></li>
                                     <li><a href="#">Twitter</a></li>
@@ -52,7 +84,7 @@ function Footer() {
                         <div className="seprator"></div>
 
                         <div className="col-md-12">
-                            <div className="last pt-2">
+                            <div className="last">
                                 <p>© Copyright 2020, ilyasahmed081@gmail.com. All Rights Reserved.</p>
                             </div>
                         </div>

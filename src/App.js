@@ -4,39 +4,84 @@ import './App.css';
 import Header from './layout/Header';
 import Footer from './layout/Footer';
 import Home from './components/Home';
-import Apply from './components/Apply';
+import ApplyOnline from './components/ApplyOnline';
 import Track from './components/Track';
-import Pickup from './components/Pickup';
+import PickupRequest from './components/PickupRequest';
 import Login from './components/Login';
 
 import { 
   BrowserRouter as Router, 
   Route,
-  Switch   
+  Switch,
+  Redirect
 } from 'react-router-dom';
 
-function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Header />
-          
-          {/* all components */} 
-          <div>
-            <Switch>
-              <Route exact path='/' component={Home}></Route>
-              <Route exact path='/home' component={Home}></Route>
-              <Route exact path='/apply' component={Apply}></Route>
-              <Route exact path='/track' component={Track}></Route>
-              <Route exact path='/pickup' component={Pickup}></Route>
-              <Route exact path='/login' component={Login}></Route>
-            </Switch>
-          </div>
+import { connect } from "react-redux";
 
-        <Footer />
-      </div>
-    </Router>
-  );
+import {
+  GetUsers
+} from "./redux/actions/taskAction";
+
+class App extends React.Component {
+  
+  constructor(props) {
+    super(props);
+
+    this.state = {
+    }
+  }
+
+  componentDidMount() {
+    // making all API calls and store in the redux-store
+    this.props.GetUsers();
+  }
+
+  render() {
+    console.log("this.props.tasksss ", this.props.Loading);
+
+    return (
+      <Router>
+        <div className="App">
+          <Header />
+            
+            {/* all components */} 
+            <div>
+              <Switch>
+                <Route exact path={process.env.PUBLIC_URL + '/react-boilerplate'}>
+                  <Redirect to={process.env.PUBLIC_URL + '/login'} />
+                </Route>
+  
+                <Route exact path="/">
+                  <Redirect to={process.env.PUBLIC_URL + '/login'} />
+                </Route>
+  
+                <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/home'} component={Home}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/applyOnline'} component={ApplyOnline}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/track'} component={Track}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/pickupRequest'} component={PickupRequest}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/login'} component={Login}></Route>
+              </Switch>
+            </div>
+  
+          <Footer />
+        </div>
+      </Router>
+    );
+  }
 }
 
-export default App;
+const mapStateToProps = state => ({
+  Loading: state.task.loading
+});
+
+const mapDispacthToProps = dispatch => {
+  return {
+    GetUsers: () => dispatch(GetUsers())    
+  };
+
+};
+export default connect(
+  mapStateToProps,
+  mapDispacthToProps
+)(App);

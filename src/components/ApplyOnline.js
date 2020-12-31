@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/apply.css';
+import '../assets/css/applyonline.css';
 
 class Apply extends React.Component {
 
