@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19312a2cec523af601716281d5b04789",
+    "revision": "0d062e46b4d6488f865008e0a3584a44",
     "url": "/cargo-website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cargo-website/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "e62185dd883e54d44071",
+    "revision": "0c8c9e8a3a2723e7fdac",
     "url": "/cargo-website/static/css/main.4492ae4d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cargo-website/static/js/2.7ec76f71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e62185dd883e54d44071",
-    "url": "/cargo-website/static/js/main.835b51cf.chunk.js"
+    "revision": "0c8c9e8a3a2723e7fdac",
+    "url": "/cargo-website/static/js/main.08193623.chunk.js"
   },
   {
     "revision": "be7b79cb63c3273b126f",
