@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/muhammadidreesshaikh/cargo-website/static/css/main.5e0534cc.chunk.css",
+    "main.js": "/muhammadidreesshaikh/cargo-website/static/js/main.f0c6c780.chunk.js",
+    "main.js.map": "/muhammadidreesshaikh/cargo-website/static/js/main.f0c6c780.chunk.js.map",
+    "runtime-main.js": "/muhammadidreesshaikh/cargo-website/static/js/runtime-main.53c93fbc.js",
+    "runtime-main.js.map": "/muhammadidreesshaikh/cargo-website/static/js/runtime-main.53c93fbc.js.map",
+    "static/css/2.2a86faee.chunk.css": "/muhammadidreesshaikh/cargo-website/static/css/2.2a86faee.chunk.css",
+    "static/js/2.69c74d98.chunk.js": "/muhammadidreesshaikh/cargo-website/static/js/2.69c74d98.chunk.js",
+    "static/js/2.69c74d98.chunk.js.map": "/muhammadidreesshaikh/cargo-website/static/js/2.69c74d98.chunk.js.map",
+    "index.html": "/muhammadidreesshaikh/cargo-website/index.html",
+    "precache-manifest.10ca013acba7e45370a7c53d738f2ec4.js": "/muhammadidreesshaikh/cargo-website/precache-manifest.10ca013acba7e45370a7c53d738f2ec4.js",
+    "service-worker.js": "/muhammadidreesshaikh/cargo-website/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/muhammadidreesshaikh/cargo-website/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.5e0534cc.chunk.css.map": "/muhammadidreesshaikh/cargo-website/static/css/main.5e0534cc.chunk.css.map",
+    "static/js/2.69c74d98.chunk.js.LICENSE.txt": "/muhammadidreesshaikh/cargo-website/static/js/2.69c74d98.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/muhammadidreesshaikh/cargo-website/static/media/home.d3548980.png",
+    "static/media/slider.css": "/muhammadidreesshaikh/cargo-website/static/media/s1.995c0f4a.jpg",
+    "static/media/track.css": "/muhammadidreesshaikh/cargo-website/static/media/track.c927f36a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53c93fbc.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.69c74d98.chunk.js",
+    "static/css/main.5e0534cc.chunk.css",
+    "static/js/main.f0c6c780.chunk.js"
+  ]
+}
