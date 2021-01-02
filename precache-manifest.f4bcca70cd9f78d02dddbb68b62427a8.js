@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d062e46b4d6488f865008e0a3584a44",
+    "revision": "15b8a9baddd07be5fb65e905ff7d905f",
     "url": "/cargo-website/index.html"
   },
   {
-    "revision": "8f6c2190097dc587d0bb",
+    "revision": "30be3a05c9ca6a2b3978",
     "url": "/cargo-website/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "0c8c9e8a3a2723e7fdac",
+    "revision": "05b63031a309f25211fb",
     "url": "/cargo-website/static/css/main.4492ae4d.chunk.css"
   },
   {
-    "revision": "8f6c2190097dc587d0bb",
-    "url": "/cargo-website/static/js/2.7ec76f71.chunk.js"
+    "revision": "30be3a05c9ca6a2b3978",
+    "url": "/cargo-website/static/js/2.4ee9fe4e.chunk.js"
   },
   {
     "revision": "b01cf20ee08477db845d02c3b279da13",
-    "url": "/cargo-website/static/js/2.7ec76f71.chunk.js.LICENSE.txt"
+    "url": "/cargo-website/static/js/2.4ee9fe4e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c8c9e8a3a2723e7fdac",
-    "url": "/cargo-website/static/js/main.08193623.chunk.js"
+    "revision": "05b63031a309f25211fb",
+    "url": "/cargo-website/static/js/main.95cb2215.chunk.js"
   },
   {
     "revision": "be7b79cb63c3273b126f",
