@@ -47,7 +47,7 @@ class App extends React.Component {
             {/* all components */} 
             <div>
               <Switch>
-                <Route exact path={process.env.PUBLIC_URL + '/react-boilerplate'}>
+                <Route exact path={process.env.PUBLIC_URL + '/cargo-website'}>
                   <Redirect to={process.env.PUBLIC_URL + '/login'} />
                 </Route>
   
