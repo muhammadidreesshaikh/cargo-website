@@ -32,7 +32,7 @@ function Header() {
                                     <li><Link to={process.env.PUBLIC_URL + '/track'}>Track</Link></li>
                                     <li><Link to={process.env.PUBLIC_URL + '/applyOnline'}>Apply Online</Link></li>
                                     <li><Link to={process.env.PUBLIC_URL + '/pickupRequest'}>Pickup Request</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/login'}>Login</Link></li>
+                                    {/* <li><Link to={process.env.PUBLIC_URL + '/login'}>Login</Link></li> */}
                                  </ul>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ function Header() {
                     <li><Link to={process.env.PUBLIC_URL + '/track'} onClick={() => setMenuToggle(!menuToggle)}>Track</Link></li>
                     <li><Link to={process.env.PUBLIC_URL + '/applyOnline'} onClick={() => setMenuToggle(!menuToggle)}>Apply Online</Link></li>
                     <li><Link to={process.env.PUBLIC_URL + '/pickupRequest'} onClick={() => setMenuToggle(!menuToggle)}>Pickup Request</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/login'} onClick={() => setMenuToggle(!menuToggle)}>Login</Link></li>
+                    {/* <li><Link to={process.env.PUBLIC_URL + '/login'} onClick={() => setMenuToggle(!menuToggle)}>Login</Link></li> */}
                 </div>
             </div>
         </div>

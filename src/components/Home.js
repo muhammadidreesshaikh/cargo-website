@@ -159,7 +159,7 @@ class Home extends React.Component {
                         </div>
                     </div>
 
-                    <div className="form">
+                    {/* <div className="form">
                         <div className="container">
                             <div className="row justify-content-center">
 
@@ -211,7 +211,7 @@ class Home extends React.Component {
 
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                 </section>
             </div>
